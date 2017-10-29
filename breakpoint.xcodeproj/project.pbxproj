@@ -7,23 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4BB61CC977E7996FBE9D1B4 /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955C208252DB8B19392AE744 /* Pods_breakpoint.framework */; };
+		B619C84F1FA6689800FA9549 /* UIViewControllerEXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = B619C84E1FA6689800FA9549 /* UIViewControllerEXT.swift */; };
 		B632CBA91F9DF14A00FF50A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B632CBA81F9DF14A00FF50A8 /* AppDelegate.swift */; };
-		B632CBAB1F9DF14A00FF50A8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B632CBAA1F9DF14A00FF50A8 /* FirstViewController.swift */; };
-		B632CBAD1F9DF14A00FF50A8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B632CBAC1F9DF14A00FF50A8 /* SecondViewController.swift */; };
+		B632CBAB1F9DF14A00FF50A8 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B632CBAA1F9DF14A00FF50A8 /* FeedVC.swift */; };
+		B632CBAD1F9DF14A00FF50A8 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B632CBAC1F9DF14A00FF50A8 /* GroupsVC.swift */; };
 		B632CBB01F9DF14A00FF50A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B632CBAE1F9DF14A00FF50A8 /* Main.storyboard */; };
 		B632CBB21F9DF14A00FF50A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B632CBB11F9DF14A00FF50A8 /* Assets.xcassets */; };
 		B632CBB51F9DF14A00FF50A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B632CBB31F9DF14A00FF50A8 /* LaunchScreen.storyboard */; };
+		B63B37CF1FA0FE9E00F2172D /* CreateGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63B37CE1FA0FE9E00F2172D /* CreateGroupVC.swift */; };
+		B6A6E6F11F9E40B1007E62B6 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A6E6F01F9E40B1007E62B6 /* AuthVC.swift */; };
+		B6A6E6F31F9E40E8007E62B6 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A6E6F21F9E40E8007E62B6 /* LoginVC.swift */; };
+		B6A6E6F51F9E4142007E62B6 /* insetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A6E6F41F9E4142007E62B6 /* insetTextField.swift */; };
+		B6A6E6F71F9E4457007E62B6 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A6E6F61F9E4457007E62B6 /* ShadowView.swift */; };
+		B6A6E6F91F9E4695007E62B6 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A6E6F81F9E4695007E62B6 /* AuthService.swift */; };
+		B6BF6FE21FA0897E00C9920E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6BF6FE11FA0897E00C9920E /* GoogleService-Info.plist */; };
+		B6C71B181FA4D1D700E0CCE6 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C71B171FA4D1D700E0CCE6 /* UserCell.swift */; };
+		B6C71B1A1FA635AF00E0CCE6 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C71B191FA635AF00E0CCE6 /* GroupCell.swift */; };
+		B6C71B1C1FA6388300E0CCE6 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C71B1B1FA6388300E0CCE6 /* Group.swift */; };
+		B6C71B1E1FA6454700E0CCE6 /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C71B1D1FA6454700E0CCE6 /* GroupFeedCell.swift */; };
+		B6C71B201FA645B700E0CCE6 /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C71B1F1FA645B700E0CCE6 /* GroupFeedVC.swift */; };
+		B6E2E8DF1FA0D6330051EE6D /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E2E8DE1FA0D6330051EE6D /* MeVC.swift */; };
+		B6E2E8E01FA0D9AF0051EE6D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A6E6EE1F9DF501007E62B6 /* DataService.swift */; };
+		B6E2E8E21FA0DA140051EE6D /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E2E8E11FA0DA140051EE6D /* CreatePostVC.swift */; };
+		B6E2E8E41FA0DCE40051EE6D /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E2E8E31FA0DCE40051EE6D /* UIViewExt.swift */; };
+		B6E2E8E61FA0E2DF0051EE6D /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E2E8E51FA0E2DF0051EE6D /* FeedCell.swift */; };
+		B6E2E8E81FA0E8860051EE6D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E2E8E71FA0E8860051EE6D /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		278405863F2327352077E78F /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
+		6B7A117E52CB8F71F1F95E09 /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
+		955C208252DB8B19392AE744 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B619C84E1FA6689800FA9549 /* UIViewControllerEXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerEXT.swift; sourceTree = "<group>"; };
 		B632CBA51F9DF14A00FF50A8 /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B632CBA81F9DF14A00FF50A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B632CBAA1F9DF14A00FF50A8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		B632CBAC1F9DF14A00FF50A8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B632CBAA1F9DF14A00FF50A8 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		B632CBAC1F9DF14A00FF50A8 /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		B632CBAF1F9DF14A00FF50A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B632CBB11F9DF14A00FF50A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B632CBB41F9DF14A00FF50A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B632CBB61F9DF14A00FF50A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63B37CE1FA0FE9E00F2172D /* CreateGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupVC.swift; sourceTree = "<group>"; };
+		B6A6E6EE1F9DF501007E62B6 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		B6A6E6F01F9E40B1007E62B6 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		B6A6E6F21F9E40E8007E62B6 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B6A6E6F41F9E4142007E62B6 /* insetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = insetTextField.swift; sourceTree = "<group>"; };
+		B6A6E6F61F9E4457007E62B6 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		B6A6E6F81F9E4695007E62B6 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		B6BF6FE11FA0897E00C9920E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B6C71B171FA4D1D700E0CCE6 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		B6C71B191FA635AF00E0CCE6 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		B6C71B1B1FA6388300E0CCE6 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		B6C71B1D1FA6454700E0CCE6 /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
+		B6C71B1F1FA645B700E0CCE6 /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
+		B6E2E8DE1FA0D6330051EE6D /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
+		B6E2E8E11FA0DA140051EE6D /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
+		B6E2E8E31FA0DCE40051EE6D /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		B6E2E8E51FA0E2DF0051EE6D /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		B6E2E8E71FA0E8860051EE6D /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +73,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4BB61CC977E7996FBE9D1B4 /* Pods_breakpoint.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C607D6570207A07C16D37C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				955C208252DB8B19392AE744 /* Pods_breakpoint.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B33E6111A10A9CEA698D157 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B7A117E52CB8F71F1F95E09 /* Pods-breakpoint.debug.xcconfig */,
+				278405863F2327352077E78F /* Pods-breakpoint.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B632CB9C1F9DF14A00FF50A8 = {
 			isa = PBXGroup;
 			children = (
 				B632CBA71F9DF14A00FF50A8 /* breakpoint */,
 				B632CBA61F9DF14A00FF50A8 /* Products */,
+				6B33E6111A10A9CEA698D157 /* Pods */,
+				5C607D6570207A07C16D37C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +118,74 @@
 		B632CBA71F9DF14A00FF50A8 /* breakpoint */ = {
 			isa = PBXGroup;
 			children = (
+				B632CBC01F9DF1EF00FF50A8 /* Services */,
+				B632CBBF1F9DF1C300FF50A8 /* Extensions */,
+				B632CBBE1F9DF1AF00FF50A8 /* Model */,
+				B632CBBD1F9DF1A800FF50A8 /* View */,
+				B632CBBC1F9DF19100FF50A8 /* Controller */,
 				B632CBA81F9DF14A00FF50A8 /* AppDelegate.swift */,
-				B632CBAA1F9DF14A00FF50A8 /* FirstViewController.swift */,
-				B632CBAC1F9DF14A00FF50A8 /* SecondViewController.swift */,
 				B632CBAE1F9DF14A00FF50A8 /* Main.storyboard */,
 				B632CBB11F9DF14A00FF50A8 /* Assets.xcassets */,
 				B632CBB31F9DF14A00FF50A8 /* LaunchScreen.storyboard */,
 				B632CBB61F9DF14A00FF50A8 /* Info.plist */,
+				B6BF6FE11FA0897E00C9920E /* GoogleService-Info.plist */,
 			);
 			path = breakpoint;
+			sourceTree = "<group>";
+		};
+		B632CBBC1F9DF19100FF50A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B632CBAA1F9DF14A00FF50A8 /* FeedVC.swift */,
+				B632CBAC1F9DF14A00FF50A8 /* GroupsVC.swift */,
+				B6A6E6F01F9E40B1007E62B6 /* AuthVC.swift */,
+				B6A6E6F21F9E40E8007E62B6 /* LoginVC.swift */,
+				B6E2E8DE1FA0D6330051EE6D /* MeVC.swift */,
+				B6E2E8E11FA0DA140051EE6D /* CreatePostVC.swift */,
+				B63B37CE1FA0FE9E00F2172D /* CreateGroupVC.swift */,
+				B6C71B1F1FA645B700E0CCE6 /* GroupFeedVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B632CBBD1F9DF1A800FF50A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6A6E6F41F9E4142007E62B6 /* insetTextField.swift */,
+				B6A6E6F61F9E4457007E62B6 /* ShadowView.swift */,
+				B6E2E8E51FA0E2DF0051EE6D /* FeedCell.swift */,
+				B6C71B171FA4D1D700E0CCE6 /* UserCell.swift */,
+				B6C71B191FA635AF00E0CCE6 /* GroupCell.swift */,
+				B6C71B1D1FA6454700E0CCE6 /* GroupFeedCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B632CBBE1F9DF1AF00FF50A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6E2E8E71FA0E8860051EE6D /* Message.swift */,
+				B6C71B1B1FA6388300E0CCE6 /* Group.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B632CBBF1F9DF1C300FF50A8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B6E2E8E31FA0DCE40051EE6D /* UIViewExt.swift */,
+				B619C84E1FA6689800FA9549 /* UIViewControllerEXT.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B632CBC01F9DF1EF00FF50A8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B6A6E6EE1F9DF501007E62B6 /* DataService.swift */,
+				B6A6E6F81F9E4695007E62B6 /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B632CBB91F9DF14A00FF50A8 /* Build configuration list for PBXNativeTarget "breakpoint" */;
 			buildPhases = (
+				37A717FC8CA0DA7EF067020D /* [CP] Check Pods Manifest.lock */,
 				B632CBA11F9DF14A00FF50A8 /* Sources */,
 				B632CBA21F9DF14A00FF50A8 /* Frameworks */,
 				B632CBA31F9DF14A00FF50A8 /* Resources */,
+				3620192B2730900872B781FC /* [CP] Embed Pods Frameworks */,
+				AE9D1E8C523A2E6B3FF654F5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B632CBB51F9DF14A00FF50A8 /* LaunchScreen.storyboard in Resources */,
+				B6BF6FE21FA0897E00C9920E /* GoogleService-Info.plist in Resources */,
 				B632CBB21F9DF14A00FF50A8 /* Assets.xcassets in Resources */,
 				B632CBB01F9DF14A00FF50A8 /* Main.storyboard in Resources */,
 			);
@@ -134,14 +259,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3620192B2730900872B781FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37A717FC8CA0DA7EF067020D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE9D1E8C523A2E6B3FF654F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B632CBA11F9DF14A00FF50A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B632CBAD1F9DF14A00FF50A8 /* SecondViewController.swift in Sources */,
+				B6E2E8E41FA0DCE40051EE6D /* UIViewExt.swift in Sources */,
+				B6E2E8E61FA0E2DF0051EE6D /* FeedCell.swift in Sources */,
+				B6E2E8DF1FA0D6330051EE6D /* MeVC.swift in Sources */,
+				B6C71B1A1FA635AF00E0CCE6 /* GroupCell.swift in Sources */,
+				B6A6E6F11F9E40B1007E62B6 /* AuthVC.swift in Sources */,
+				B6A6E6F51F9E4142007E62B6 /* insetTextField.swift in Sources */,
+				B6C71B201FA645B700E0CCE6 /* GroupFeedVC.swift in Sources */,
+				B6C71B1E1FA6454700E0CCE6 /* GroupFeedCell.swift in Sources */,
+				B632CBAD1F9DF14A00FF50A8 /* GroupsVC.swift in Sources */,
+				B6A6E6F91F9E4695007E62B6 /* AuthService.swift in Sources */,
+				B6A6E6F31F9E40E8007E62B6 /* LoginVC.swift in Sources */,
+				B6C71B1C1FA6388300E0CCE6 /* Group.swift in Sources */,
+				B6C71B181FA4D1D700E0CCE6 /* UserCell.swift in Sources */,
+				B63B37CF1FA0FE9E00F2172D /* CreateGroupVC.swift in Sources */,
+				B6A6E6F71F9E4457007E62B6 /* ShadowView.swift in Sources */,
+				B6E2E8E21FA0DA140051EE6D /* CreatePostVC.swift in Sources */,
+				B619C84F1FA6689800FA9549 /* UIViewControllerEXT.swift in Sources */,
 				B632CBA91F9DF14A00FF50A8 /* AppDelegate.swift in Sources */,
-				B632CBAB1F9DF14A00FF50A8 /* FirstViewController.swift in Sources */,
+				B632CBAB1F9DF14A00FF50A8 /* FeedVC.swift in Sources */,
+				B6E2E8E01FA0D9AF0051EE6D /* DataService.swift in Sources */,
+				B6E2E8E81FA0E8860051EE6D /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +467,7 @@
 		};
 		B632CBBA1F9DF14A00FF50A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7A117E52CB8F71F1F95E09 /* Pods-breakpoint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +483,7 @@
 		};
 		B632CBBB1F9DF14A00FF50A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 278405863F2327352077E78F /* Pods-breakpoint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
